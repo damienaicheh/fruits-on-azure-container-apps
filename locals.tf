@@ -4,7 +4,8 @@ locals {
   resource_suffix_lowercase = join("", local.resource_lowercase_array)
 
   # Add your users identities here
-  users_identities = ["a6b011ef-8fcb-494e-9731-44ce994723da"]
+  users_identities = ["xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                      "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy"]
 
   tags = merge(
     var.tags,
