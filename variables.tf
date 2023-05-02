@@ -39,7 +39,7 @@ variable "resource_group_name_suffix" {
 variable "repository" {
   description = "The repository name"
   type        = string
-  default     = "fruits_on_azure_container_apps"
+  default     = "fruits-on-azure-container-apps"
 }
 
 variable "creator" {
